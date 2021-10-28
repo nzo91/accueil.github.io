@@ -1,0 +1,38 @@
+table{
+	border: 2px solid purple;
+	margin: auto;
+	width: 80%;
+
+}
+th{
+	text-align: center;
+	background-color: skyblue;
+	font-size: 3em;
+	font-family: Arial;
+	margin: 20px;
+}
+td{
+	border: 2px solid skyblue;
+	margin: auto;
+	padding: 0em;
+	text-align: center;
+	font-family: Verdana;
+	font-size: 0.85em;
+
+}
+h1{
+	text-align: center;
+	color: purple;
+}
+a{
+	color: purple;
+	visited: red;
+}
+a:hover{
+	background-color: grey;
+	color: purple;
+}
+a:visited{
+	background-color: white;
+	color: red;
+}

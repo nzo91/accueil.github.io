@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Exercice 12</title>
+	<script type="text/javascript">
+		function calculate(){
+			var x=parseInt(document.getElementById("first").value);
+			var y=parseInt(document.getElementById("second").value);
+			var z=parseInt(document.getElementById("third").value);
+
+			var a=parseInt(document.getElementById("first1").value);
+			var b=parseInt(document.getElementById("second1").value);
+			var c=parseInt(document.getElementById("third1").value);
+
+			var d=parseInt(document.getElementById("first2").value);
+			var e=parseInt(document.getElementById("second2").value);
+			var f=parseInt(document.getElementById("third2").value);
+
+			document.getElementById("answer").value=(y*z);
+			document.getElementById("answer1").value=(b*c);
+			document.getElementById("answer2").value=(e*f);
+			document.getElementById("total").value=(b*c+e*f+y*z);
+		}
+	</script>
+</head>
+<body>
+	<table border="2">
+		<tr>
+			<td>Article :</td>
+			<td>Prix :</td>
+			<td>Quantité :</td>
+			<td>Résultat :</td>
+		</tr>
+		<tr>
+			<td><input id="first" type="text" name="first"></td>
+			<td><input id="second" type="text" name="second"></td>
+			<td><input id="third" type="text" name="third"></td>
+			<td><input id="answer" type="text" name="answer"></td>
+		</tr>
+		<tr>
+			<td><input id="first1" type="text" name="first1"></td>
+			<td><input id="second1" type="text" name="second1"></td>
+			<td><input id="third1" type="text" name="third1"></td>
+			<td><input id="answer1" type="text" name="answer1"></td>
+		</tr>
+		<tr>
+			<td><input id="first2" type="text" name="first2"></td>
+			<td><input id="second2" type="text" name="second2"></td>
+			<td><input id="third2" type="text" name="third2"></td>
+			<td><input id="answer2" type="text" name="answer2"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+		<td><input onclick="calculate()" type="button" value="Calculer"></td>
+		<td><input id="total" type="text" name="total"></td>
+		</tr>
+	</table>
+<a href="../index.html">Retourner à la page d'accueil</a>
+</body>
+</html>

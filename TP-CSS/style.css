@@ -1,0 +1,60 @@
+
+
+
+
+ body{
+ 	background-color: lightskyblue;
+ 	font-size: 12px;
+ 	font-family: verdana, Arial;
+ }
+
+
+
+
+
+h1
+{
+	color: blue;
+}
+.s1
+{
+	color: red;
+}
+.s2
+{
+	color: purple;
+	text-align: center;
+	background-color: royalblue;
+	border: 2px solid#000000;
+	margin-top: 50px; =espace entre la bordure du text et la pagee
+	margin-bottom: 50px;
+	margin-right: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px; =espace entre le text et la bordure de la case
+}
+p
+{
+	font-size: large;
+	color: lightgreen;
+}
+h2
+{
+	color: red;
+}
+ul
+{
+	color: mediumpurple;
+}
+a:link
+{
+	color: darkred;
+}
+a:hover
+{
+    background-color: #FFFF00;
+    color: green;
+}
+a:visited
+{
+	color: green;
+}

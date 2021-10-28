@@ -1,0 +1,51 @@
+body{
+ 	background-color: lightskyblue;
+ 	font-size: 30px;
+ 	font-family: verdana, Arial;
+ }
+table{
+	border: 2px solid purple;
+	margin: auto;
+	width: 80%;
+}
+td{
+	border: 1px solid black;
+	background-color: lightskyblue;
+	width: 50%;
+	text-align: center;
+	height: 80px;
+}
+td:hover{
+	color: blue;
+	background-color: lightgrey;
+}
+h1
+{
+	color: white;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+a{
+	border: 3px solid#00001;
+}
+a:link
+{
+	color: darkred;
+}
+a:hover
+{
+    color: purple;
+}
+a:visited
+{
+	color: purple;
+}

@@ -1,0 +1,38 @@
+code{
+
+	background: #73bcec;
+	color: #FFF;
+	font-size: 2rem;
+	font-family: Arial;
+	text-align: center;
+	border: 2px solid #060bfa;
+	border-radius: 6px;
+	display:  block;
+}
+
+section {
+	float: left;
+	width: 30%;
+	height: 400px;
+	border: 2px solid #060bfa;
+	border-radius: 6px;
+	display: block;
+	text-align: center;
+	padding: 20px 0px;
+	background-image:url(fond.png);
+}
+
+header, section{
+	margin: 0 1.2% 24px 1.2%;
+}
+footer {
+	clear: both;
+}
+.P1{
+	color: pink;
+	background: purple;
+}
+.P2{
+	color: pink;
+	background: purple;
+}

@@ -1,0 +1,118 @@
+.page{
+	border: 5px solid blue;
+	border-radius: 4px;
+	width: 780px;
+	height: 1200px;
+	font-size: 16px;
+	font-family: tahoma;
+	margin: auto;
+	box-shadow: 2px 4px 3px black;
+	padding: 20px;
+
+}
+.entete{
+	width: 90%;
+	height: 250px;
+	border: 3px;
+	padding: 20px;
+
+}
+.infos{
+	border: 2px;
+	float: left;
+	padding: 20px;
+
+}
+.photo{
+	border: 2px;
+	float: right;
+	padding: 1px;
+	margin: auto;
+	height: 250px;
+
+}
+.formation{
+	width: 90%;
+	height: 150px;
+	border: 3px;
+	margin-top: 20px;
+	padding: 20px;
+
+}
+.annee1{
+	border: 3px;
+	float: left;
+	font-size: 13.5px;
+	padding: 5px;
+}
+.texte1{
+	float: center;
+	font-size: 13.5px;
+	border: 3px;
+	padding: 5px;
+	padding-left: 150px;
+}
+.exppro{
+	width: 90%;
+	height: 90px;
+	border: 3px;
+	margin-top: 20px;
+	padding: 20px
+}
+.annee2{
+	border: 3px;
+	float: left;
+	font-size: 13.5px;
+	padding: 5px;
+}
+.texte2{
+	float: center;
+	font-size: 13.5px;
+	border: 3px;
+	padding: 5px;
+	padding-left: 150px;
+}
+.langue{
+	width: 90%;
+	height: 120px;
+	border: 3px;
+	margin-top: 20px;
+	padding: 20px
+}
+.exp{
+	border: 3px;
+	float: left;
+	font-size: 13.5px;
+	padding: 5px;
+}
+.niveau{
+	float: center;
+	font-size: 13.5px;
+	border: 3px;
+	padding: 5px;
+	padding-left: 95px;
+}
+.autresexp{
+	width: 90%;
+	height: 120px;
+	border: 3px;
+	margin-top: 20px;
+	padding: 20px
+}
+.exp2{
+	border: 3px;
+	float: left;
+	font-size: 13.5px;
+	padding: 5px;
+}
+.capacite{
+	float: center;
+	font-size: 13.5px;
+	border: 3px;
+	padding: 5px;
+	padding-left: 125px;
+}
+h2{
+	text-decoration: underline;
+	font-style: italic;
+}

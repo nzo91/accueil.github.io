@@ -1,0 +1,245 @@
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    text-align: center;
+}
+body{
+    font-family: "Impact", sans-serif;
+    padding: 0;
+   margin: 0;
+   
+} 
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(238, 230, 230);
+
+}
+
+
+
+
+/* ****************************** Navbar***************************** */
+
+nav{
+   overflow: visible;
+    background-color:grey ;
+    position: fixed;
+    width: 100%;
+    opacity: 0.8;
+    height: 61px;
+}
+header li{
+    float: left;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 2px rgb(138, 136, 136);
+}
+header li a{
+    text-decoration: none;
+    display: block;
+    padding: 18px 16px;
+}
+header a:hover{
+    color: rgb(10, 10, 10);
+    background-color: rgba(0, 142, 142);
+    transition: 0.2s ease-in-out;
+}
+header input{
+    float: right;
+    border:none;
+    width: 15%;
+    height: 25px;
+    margin: 12px;
+    font-size: 1.2em;
+    border-radius: 8px;
+    font-family:"Indie Flower", sans-serif;
+    
+}
+#imagefond{
+    padding: 60px;
+    background: url(.//fondgifasie.gif) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 800px;
+}
+/* ******************************Menu déroulant**************************** */
+
+
+.submenu{
+    display: none;
+}
+nav > ul > li{
+    float: left;
+    position: relative;
+}
+nav > ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+nav li:hover .submenu{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 100000;
+}
+.submenu li{
+    border-bottom: 1px solid #CCC;
+}
+.submenu li a{
+    padding: 15px 30px;
+    font-size: 13px;
+    color: #222538;
+    width: 270px;
+}
+.menu-metiers:hover{
+    border-top: 5px solid black ;
+    background-color: RGBa(50, 0, 86,0.15);
+}
+.menu-css:hover{
+    border-top: 5px solid black  ;
+    background-color: RGBa(50, 0, 86,0.15);
+}
+.projets:hover{
+        border-top: 5px solid black  ;
+    background-color: RGBa(50, 0, 86,0.15);
+}
+.menu-javascript:hover{
+        border-top: 5px solid black  ;
+    background-color: RGBa(50, 0, 86,0.15);
+}
+nav > ul > li:hover a{
+    padding: 15px 30px 20px 30px;
+    }
+.menu-metiers .submenu{
+    background-color: #008E8E ;
+}
+.menu-css .submenu{
+    background-color: #008E8E ;
+}
+.projets .submenu{
+     background-color: #008E8E ;
+}
+.menu-javascript .submenu{
+     background-color: #008E8E ;
+}
+.submenu li:hover a{
+    color: #EEE;
+    font-weight: bold;
+}
+
+/* ******************************Accueil***************************** */
+#bandeauaccueil{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    height: 50px;
+    width: 100%;
+    background-color: #008E8E;
+}
+
+h2{
+    text-transform: ;
+    padding-bottom: 5px ;
+    font-size: 1.5em;
+}
+
+#accueil{
+    display: grid;
+    border-bottom: 3px solid black ;
+    background-color: none;
+}
+
+h1{
+    text-align: center;
+    margin: 3px 15px;
+    font-size: 3em;
+    color: rgb(27, 17, 27);
+    margin-top: 10px;
+}
+
+#accueiltext p{
+    padding-top: 20px;
+    text-align: left;
+    float: center;
+    height: 150px;
+    width: 50%;
+    margin: 3px 15px;
+    font-size: 1.5em;
+
+}
+
+#bandeauaccueil2{
+    border-bottom: 2px solid black;
+    height: 50px;
+    width: 100%;
+    background-color: #008E8E;
+}
+/* ******************************2ème image************************* */
+
+
+#imagefond2{
+    padding: 60px;
+    background: url(.//fondgifasie2.gif) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 800px;
+}
+
+
+/* ******************************Footer***************************** */
+footer{
+    background-color: rgba(0, 142, 142);
+    color: whitesmoke;
+    padding: 20px 0 10px 0;
+    text-align: center ;
+}
+
+form{
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+footer input, textarea, button{
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;//
+    font-size: 1.2em;
+    border-radius: 8px;
+    font-family:"Forte", sans-serif;
+    
+
+}
+
+textarea{
+    height: 120px;
+}
+
+button{
+    font-size: 1.5em;
+    background-color: rgb(224, 194, 220);
+}
+
+button:hover{
+    background-color: rgb(46, 33, 46);
+    color: whitesmoke;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+#copyright{
+    height: 20px;
+}
+#copyright1{
+    float: left;
+    padding-left: 30px;
+}

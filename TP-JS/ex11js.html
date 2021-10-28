@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Exercice 11</title>
+	<script type="text/javascript">
+		function calculate(){
+			var x=parseInt(document.getElementById("first").value);
+			var y=parseInt(document.getElementById("second").value);
+			document.getElementById("answer").value=(x+y);
+		}
+	</script>
+</head>
+<body>
+	<form>
+		Premier :<input id="first" type="text" name="first"><br>
+		Second :<input id="second" type="text" name="second"><br>
+		Résultat :<input id="answer" type="text" name="answer"><br>
+		<input onclick="calculate()" type="button" value="Additionner">
+	</form>
+<a href="../index.html">Retourner à la page d'accueil</a>
+</body>
+</html>
