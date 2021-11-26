@@ -1,0 +1,31 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    text-align: center;
+}
+body{
+    font-family: "Franklin Gothic Medium", sans-serif;
+    padding: 0;
+    margin: 0; 
+} 
+#entre-table{
+    height: 2px;
+    width: 90%;
+    background-color: white;
+    margin: 60px auto;
+}
+#imagefond{
+    padding: 60px;
+    background: url(.//fondgifasie.gif) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 550px;
+}
+li{
+    color: white;
+    text-align: left;
+}
+ul{
+    color: white;
+    text-align: left;
+}
